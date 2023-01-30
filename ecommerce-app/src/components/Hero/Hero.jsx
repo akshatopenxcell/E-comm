@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div>
       <S.HeroImg
-        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoe-store-logo-design-template-da7acb3f6546068cbc2272814166e8a4_screen.jpg?ts=1635317713"
+        src="https://media.istockphoto.com/id/1307591164/vector/modern-sports-shoes-logo.jpg?s=612x612&w=0&k=20&c=YL8qzSJbhn55AqxN62hoetN-qgQnNP4yf6dTafjhYgw="
         alt="two steaks"
       />
       <S.Content>

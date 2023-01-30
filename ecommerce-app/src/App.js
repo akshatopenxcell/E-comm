@@ -17,6 +17,8 @@ import Shop from "./pages/ShopPage/Shop";
 import SignInUp from "./pages/SignInUp/SignInUp";
 import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
+import ForgotPassword from "./components/forgotpassword/forgotpassword"
+import ResetPassword from "./components/resetpassword/ResetPassword";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -53,6 +55,8 @@ class App extends React.Component {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/about" component={About} />
           <Route path="/shop" component={Shop} />
+          <Route path="/forgot" component={ForgotPassword} />
+          <Route path="/reset/:token" component={ResetPassword} />
           <Route
             exact
             path="/signin"
